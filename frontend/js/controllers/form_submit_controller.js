@@ -17,7 +17,7 @@ export default class extends ApplicationController {
 
   handleFormResponse(e) {
     const response = e.detail.fetchResponse.response;
-
+    console.log("Moski");
     console.log(response.status);
 
     // if (response.status >= 500) {
